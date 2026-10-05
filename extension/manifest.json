@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Ferrn Capture",
+  "description": "Capture screenshots, console errors, network activity and reproduction context directly into Ferrn Issue Control.",
+  "version": "0.1.0",
+  "permissions": ["activeTab", "tabs", "storage", "scripting", "debugger"],
+  "host_permissions": ["https://testing-webapp.aiwebcourse.workers.dev/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Ferrn Capture", "default_popup": "popup.html"}
+}
