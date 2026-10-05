@@ -5,4 +5,4 @@ compatibility_date = "2026-10-05"
 [[d1_databases]]
 binding = "DB"
 database_name = "testing-webapp-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "5c86eed2-43e7-4799-85fa-25ce59fc772a"
